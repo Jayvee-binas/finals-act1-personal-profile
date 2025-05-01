@@ -6,20 +6,23 @@ function Projects() {
     {
       id: 1,
       title: 'Personal Portfolio Website',
-      description: 'A modern and responsive portfolio website built with React.js. Features a clean design, smooth navigation, and sections for showcasing my skills and projects.',
+      description: 'A responsive portfolio website built with React and modern CSS features. Showcases my projects, skills, and professional experience.',
       image: 'https://placehold.co/600x400',
-      techStack: ['React.js', 'CSS3', 'React Router', 'Responsive Design'],
-      liveLink: '#',
-      githubLink: 'https://github.com/jayveebinas/personal-profile'
+      techStack: ['React', 'CSS3', 'JavaScript', 'Responsive Design'],
     },
     {
       id: 2,
-      title: 'Student Registration System',
-      description: 'A web-based student registration system that allows students to enroll in courses, view their schedules, and manage their academic information.',
+      title: 'E-commerce Dashboard',
+      description: 'An administrative dashboard for managing online store inventory, orders, and customer data. Features real-time updates and data visualization.',
       image: 'https://placehold.co/600x400',
-      techStack: ['HTML5', 'CSS3', 'JavaScript', 'PHP', 'MySQL'],
-      liveLink: '#',
-      githubLink: 'https://github.com/jayveebinas/student-registration'
+      techStack: ['React', 'Node.js', 'MongoDB', 'Express', 'Chart.js'],
+    },
+    {
+      id: 3,
+      title: 'Weather App',
+      description: 'A weather application that provides real-time weather information and forecasts. Integrates with weather APIs and features a clean, intuitive interface.',
+      image: 'https://placehold.co/600x400',
+      techStack: ['JavaScript', 'Weather API', 'HTML5', 'CSS3'],
     }
   ];
 
@@ -49,7 +52,7 @@ function Projects() {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  Live Demo
+                
                 </a>
                 <a 
                   href={project.githubLink} 
@@ -57,7 +60,7 @@ function Projects() {
                   rel="noopener noreferrer"
                   className="project-link"
                 >
-                  GitHub
+               
                 </a>
               </div>
             </div>
