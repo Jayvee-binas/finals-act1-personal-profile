@@ -33,18 +33,18 @@ function Contact() {
           <ul className="contact-details">
             <li>
               <i className="fas fa-envelope"></i>
-              <a href="mailto:your.email@example.com">your.email@example.com</a>
+              <a href="mailto:jayveebinas@gmail.com">jayveebinas@gmail.com</a>
             </li>
             <li>
               <i className="fab fa-github"></i>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-                github.com/yourusername
+              <a href="https://github.com/Jayvee-binas" target="_blank" rel="noopener noreferrer">
+                github.com/Jayvee-binas
               </a>
             </li>
             <li>
               <i className="fab fa-linkedin"></i>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-                linkedin.com/in/yourprofile
+              <a href="https://linkedin.com/in/jayvee-binas" target="_blank" rel="noopener noreferrer">
+                linkedin.com/in/jayvee-binas
               </a>
             </li>
           </ul>

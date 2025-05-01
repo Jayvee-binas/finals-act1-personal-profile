@@ -6,7 +6,7 @@ function Education() {
     {
       id: 1,
       date: '2022 - 2024',
-      title: '(UC)Pamantasan ng Cabuyao',
+      title: 'Pamantasan ng Cabuyao',
       subtitle: '3rd Year, Bachelor of Science in Information Technology',
       description: 'Relevant coursework: Web Development, Database Management, Software Engineering, Data Structures and Algorithms.'
     },
